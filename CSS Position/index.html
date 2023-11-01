@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        height: 500px;
+        width: 80vw;
+        padding: 3px;
+        margin: 4px;
+        border: 2px solid black;
+      }
+      .box1 {
+        background-color: aqua;
+        position: absolute;
+        /* z-index: 1; /* Makes box1 appear on top of box2 */
+      }
+      .box2 {
+        background-color: blueviolet;
+        position: sticky;
+        margin: 0;
+        padding: 0;
+        top: 0px;
+        height: 111px;
+        width: 100%;
+        left: 80px;
+      }
+      .box3 {
+        background-color: chartreuse;
+      }
+      .box4 {
+        background-color: coral;
+      }
+      .box5 {
+        background-color: black;
+        color: aliceblue;
+        position: fixed;
+        bottom: 0px;
+        left: 25vw;
+        height: 80px;
+      }
+      .parent{
+        padding: 20px;
+        margin: 12px;
+        border: 3px solid purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+      <div class="box box5">Welcome to the site</div>
+    </div>
+  </body>
+</html>

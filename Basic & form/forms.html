@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Application form</h1>
+      <form action="post">
+        <div>
+          <label for="username"> Enter your username : </label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your username"
+          />
+        </div>
+
+        <div>
+          <input type="radio" id="Male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="Female" name="gender" value="Female" />
+          <label for="Female">Female</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="Interest" id="Coding" value="Coding" />
+          <label for="Coding"> Coding </label>
+          <input type="checkbox" name="Interest" id="Sports" value="Sports" />
+          <label for="Sports">Sports</label>
+          <input type="checkbox" name="Interest" id="Reading" value="Reading" />
+          <label for="Reading">Reading</label>
+        </div>
+
+        <div>
+          <textarea name="comment" cols="37" rows="4">
+            Enter your comment here...</textarea
+          >
+        </div>
+
+        <select name="year">
+          <option value="1st year">1st year</option>
+          <option value="2nd year">2nd year</option>
+          <option value="3rd year">3rd year</option>
+        </select>
+      </form>
+    </main>
+  </body>
+</html>

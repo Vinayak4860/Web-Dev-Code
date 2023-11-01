@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* div {
+        background-color: red;
+      } */
+
+      /* Class selector */
+      .red {
+        background-color: red;
+      }
+
+      /* ID selector */
+      #yellow {
+        background-color: yellow;
+      }
+      /* Child selector */
+      article > p {
+        color: antiquewhite;
+        background-color: black;
+      }
+      /*Descendant Selector*/
+      div p {
+        color: blanchedalmond;
+        background-color: slategray;
+      }
+      /*Universal Selector*/
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /*Pseudo Selector*/
+      a:visited{
+        color: yellow;
+      }
+      a:link{
+        color: cyan;
+      }
+      a:active{
+        color: black;
+      }
+      a:hover{
+        background-color: black;
+      }
+      p:first-child{
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red">
+      I am a Div
+      <p>I am a para under Div</p>
+      <p>ME WHEN?</p>
+    </div>
+    <div id="yellow">I am a another Div</div>
+    <a href="https://www.google.com">GO TO GOOGLE</a>
+    <a href="https://olamovies.boats">Ola Movies</a>
+  </body>
+</html>

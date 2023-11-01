@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display Property</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        border: 2px solid blue;
+        display: inline; /* Turned div to inline element */
+        padding: 45px;
+        margin: 34px;
+        width: 150px;
+        display: inline-block;
+      }
+      .box1 {
+        /* display: none; : used to display nothing*/
+        /*visibility: hidden; used to hide but space will still be there */
+        display: flex;
+        justify-content: center;
+      }
+      .box2 {
+        border: 2px solid blue;
+        display: inline; /* Turned div to inline element */
+        padding: 45px;
+        margin: 34px;
+        width: 150px;
+        display: inline-flex  ;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Not Inline element ex:-->
+    <div class="box box1">I am a box</div>
+    <div class="box">and also a cube</div>
+    <div class="box2">What's up ma nigga</div>
+    <!--Inline element ex:-->
+    <span>I am a good </span>
+    <span>Boy</span>
+  </body>
+</html>

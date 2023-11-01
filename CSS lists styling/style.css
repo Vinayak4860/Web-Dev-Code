@@ -1,0 +1,22 @@
+ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    padding: 23px;
+    list-style: none;
+}
+    
+
+
+
+/* <style>
+    nav ul li {
+    list-style: none;
+    list-style-type: "🧿";
+    list-style-position: inside;
+    background-color: yellow;
+    border: 2px solid black;
+    list-style-image: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg); */
+   /*} 
+</style> */
